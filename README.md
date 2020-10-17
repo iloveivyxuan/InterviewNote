@@ -1,6 +1,10 @@
+Resources:
+https://bxie.gitbooks.io/powerbook/content/airbnb/alien-dictionary.html
+
 # InterviewNote
 
 Mock Interview Feedback:
+
 Goal:
   - easy - 20min
   - medium - 30min
