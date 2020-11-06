@@ -23,6 +23,42 @@ DP
 - Reverse Linked List
 - Add Two numbers (linked lists)
 
+987. Vertical Order Traversal of a Binary Tree
+node => coordinates
+- DFS
+- BFS
+- sort list of tuples
+
+314. Binary Tree Vertical Order Traversal
+- BFS
+
+1636. Sort Array by Increasing Frequency
+```
+freqTable = collections.defaultdict(int)
+  for num in nums:
+  reqTable[num] += 1
+
+import collections
+count = collections.Counter(nums)
+```
+sorted(nums, key=lambda x:(freqTable[x], -x))
+
+451. Sort Characters By Frequency
+sorted(string) => []
+- Bucket Sort -> O(n)
+
+977. Squares of a Sorted 
+
+821. Shortest Distance to a Character
+prev = float('-inf')
+prev = float('inf')
+
+450. Delete Node in a BST
+BST
+- Inorder traversal of BST is an array sorted in the ascending order.
+
+582. Kill Process
+
 
 ### 电面
 LeetCode 1029. Two City Scheduling
