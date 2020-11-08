@@ -1,6 +1,8 @@
 LeetCode 767.
 
+##### Design
 1396. Design Underground System
+1472. Design Browser History
 
 155. Min Stack
 方法一：memorize current minimum with stack
@@ -59,10 +61,71 @@ BST
 
 582. Kill Process
 
-- Backtracking
+387. First Unique Character in a String
+
+
+##### Backtracking
+- Find all combinations
+- Backtracking is an algorithm for finding all solutions by exploring all potential candidates. If the solution candidate turns to be not a solution (or at least not the last one), backtracking algorithm discards it by making some changes on the previous step, i.e. backtracks and then try again.
+note:
+- whether input can include duplicated numbers
+- whether output can include duplicated numbers
+- does order matters
 797. All Paths From Source to Target
 39. Combination Sum
+40. Combination Sum II
 216. Combination Sum III
+77. Combinations
+784. Letter Case Permutation
+78. Subsets (Input are distinct numbers)
+90. Subsets II (Input might contain duplicated numbers)
+
+'a'.isalpha()
+'a'.lower()
+'a'.upper()
+subset include []
+
+##### Recursion / DFS
+
+
+##### Binary Search Tree
+98. Validate Binary Search Tree
+- each node has lower bound and upper bound
+
+##### Binary Search
+34. Find First and Last Position of Element in Sorted Array
+74. Search a 2D Matrix
+
+##### Divide and Conquer
+
+##### Sort
+sorted('string', key=count.get)
+1366. Rank Teams by Votes
+
+
+##### Heapq / Priority Queue
+heapq.heappush(heap, element)
+heapq.heappop(heap)
+- Can customize __lt__ and __eq__
+```
+class Word:
+    def __init__(self, freq, word):
+        self.freq = freq
+        self.word = word
+    
+    def __lt__(self, other):
+        if self.freq == other.freq:
+            return self.word > other.word
+        return self.freq < other.freq
+    
+    def __eq__(self, other):
+        return self.freq == self.freq and self.word == self.word
+```
+692. Top K Frequent Words
+973. K Closest Points to Origin
+
+##### Clarification
+upper-case, lower-case
 
 
 
