@@ -85,8 +85,22 @@ note:
 'a'.upper()
 subset include []
 
-##### Recursion / DFS
+##### Tree
+- BFS
+- DFS
+- Inorder
+230. Kth Smallest Element in a BST
+Recursion
+Iterative
+- Preorder
+- Postorder
 
+
+##### Recursion / Tree / DFS
+
+##### Binary Tree
+236. Lowest Common Ancestor of a Binary Tree
+124. Binary Tree Maximum Path Sum
 
 ##### Binary Search Tree
 98. Validate Binary Search Tree
@@ -124,9 +138,15 @@ class Word:
 692. Top K Frequent Words
 973. K Closest Points to Origin
 
+##### Array
+350. Intersection of Two Arrays II
+- how should I handle duplicates? 
+- the order of inputs and outputs. 
+
 ##### Clarification
 upper-case, lower-case
-
+A subarray is a contiguous subsequence of the array.
+1 ≤ k ≤ BST's total elements
 
 
 ### 电面
